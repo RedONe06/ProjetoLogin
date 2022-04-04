@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.titulo{
+    font-family: 'Fredoka One', cursive;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+.subtitulo{
+    font-size: 13px;
+    background-color: aliceblue;
+}
+
+a{
+    background-color: aliceblue;
+
+}

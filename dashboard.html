@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/dashboard.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Dashboard</title>
+</head>
+
+<body>
+
+    <div class="voltar">
+        <img src="./img/gitFundo.gif">
+        <a href="./login.html"><input type="button" value="Voltar" class="botao" id="voltar"></a>
+    </div>
+    <main>
+        <div class="container">
+
+            <div class="encomendas">
+
+                <header>
+                    <h1 class="titulo">ENCOMENDAS</h1>
+                </header>
+
+                <div class="escolhaP">
+                    <div class="icone">
+                        <iframe src="https://giphy.com/embed/CN8RJQ9PWBk5y" frameBorder="0" id="imgPerfil"></iframe>
+                    </div>
+                    <div class="sabores">
+                        <h2 class="subtitulo">SABORES</h2>
+                    </div>
+                    <div class="escolha">
+                        <input type="radio" name="radio" id="radioMussarela"><label for="radioMussarela">
+                            Mussarela</label><br>
+                        <input type="radio" name="radio" id="radioCalabresa"><label for="radioCalabresa">
+                            Calabresa</label><br>
+                        <input type="radio" name="radio" id="radioMarguerita"><label for="radioMarguerita">
+                            Marguerita</label><br>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="orcamento">
+                <header>
+                    <h1 class="titulo" id="orcamento">ORÇAMENTO</h1>
+                </header>
+
+                <div class="tabela">
+                    <table>
+                        <tr>
+                            <td colspan="3" class="legenda">PEDIDO</td>
+                        </tr>
+                        <tr>
+                            <th>Pizza</th>
+                            <th>Quantidade</th>
+                            <th>TOTAL</td>
+                        </tr>
+                        <tr>
+                            <th>Mussarela</th>
+                            <td class="saida"></td>
+                            <td class="saida"></td>
+                        </tr>
+                        <tr>
+                            <th>Calabresa</th>
+                            <td class="saida"></td>
+                            <td class="saida"></td>
+                        </tr>
+                        <tr>
+                            <th>Marguerita</th>
+                            <td class="saida"></td>
+                            <td class="saida"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"> <input class="botao" type="submit" value="Gerar pedido"></td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+
+        </div>
+    </main>
+</body>
+
+</html>
