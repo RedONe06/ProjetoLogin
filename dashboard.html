@@ -58,7 +58,7 @@
                 </header>
 
                 <div class="tabela">
-                    <table>
+                    <table id="tbl">
                         <tr>
                             <td colspan="3" class="legenda">PEDIDO</td>
                         </tr>
@@ -69,21 +69,27 @@
                         </tr>
                         <tr>
                             <th>Mussarela</th>
-                            <td class="saida"></td>
-                            <td class="saida"></td>
+                            <td class="saida" id="qMussarela"></td>
+                            <td class="saida" id="vMussarela"></td>
                         </tr>
                         <tr>
                             <th>Calabresa</th>
-                            <td class="saida"></td>
-                            <td class="saida"></td>
+                            <td class="saida" id="qCalabresa"></td>
+                            <td class="saida" id="vCalabresa"></td>
                         </tr>
                         <tr>
                             <th>Marguerita</th>
-                            <td class="saida"></td>
-                            <td class="saida"></td>
+                            <td class="saida" id="qMarguerita"></td>
+                            <td class="saida" id="vMarguerita"></td>
                         </tr>
                         <tr>
-                            <td colspan="3"> <input class="botao" type="submit" value="Gerar pedido"></td>
+                            <td colspan="3"> <input class="botao" type="button" value="Somar" id="enviar"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"> <input class="botao" type="button" value="Retirar" id="estorno"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"> <input class="botao" type="button" value="Enviar planilha" id="planilha"></td>
                         </tr>
                     </table>
 
@@ -92,6 +98,8 @@
 
         </div>
     </main>
+    <script src="./js/dashboard.js"></script>
+    <script type="text/javascript" src="./js/tableToExcel.js"></script>
 </body>
 
 </html>

@@ -50,13 +50,15 @@ div{
 input::placeholder{
     color: aliceblue;
     font-weight: 800;
-    padding-left: 10px;
 }
 
 .input{
     height: 20px;
     width: 200px;
     border-radius: 5px;
+    color: aliceblue;
+    font-weight: 800;
+    padding-left: 10px;
 
     margin: 5px auto;
     background-color: #5c85e3;
